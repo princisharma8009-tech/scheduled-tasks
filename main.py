@@ -25,7 +25,7 @@ for i in range(0,4):
      ids = data["list"][i]["weather"][0]["id"]
      id_list.append(ids)
 for item in id_list:
-    if item<900:
+    if item<700:
         will_rain = True
 if will_rain:
     client = Client(auth_sid,auth_token)
