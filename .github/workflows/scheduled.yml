@@ -40,7 +40,7 @@ jobs:
       - name: Run script
         env:
            AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
-           AUTH_SID: ${{ secrets.AUTHOR_SID }}
+           AUTH_SID: ${{ secrets.AUTH_SID }}
            FROM_NO: ${{ secrets.FROM_NO }}
            MY_NUMBER: ${{ secrets.MY_NUMBER }}
            LAT: ${{ secrets.LAT }}
